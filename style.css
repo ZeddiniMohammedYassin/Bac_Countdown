@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.h{
+    font-size: 4em;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%);
+    color: white;
+    text-shadow: 2px 5px 5px rgb(3,150,166), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+.container{
+    color: white;
+    position: relative ;
+    top: 250px ;
+    left: 600px;
+    display: flex ;
+}
+.container div {
+    flex-basis: 112.5px;
+}
+.container div p{
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+.hh{
+    font-size: 4em;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    top: 27%;
+    left: 73%;
+    transform: translatex(-50%) translateY(-50%);
+    color: white;
+    text-shadow: 2px 5px 5px rgb(3,150,166), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+@media screen and (max-width: 1024px)
+{
+    .hh{
+        position: absolute;
+        top: 32.5%;
+        left: 65%;
+    }
+    .container{
+        left: 330px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .hh{
+        position: absolute;
+        top: 32.5%;
+        left: 70%;
+    }
+    .container{
+        left: 200px;
+    }
+}
+@media screen and (max-width: 426px)
+{
+    .h{
+        position: absolute;
+        left: 40%;
+        font-size: 2.8em;
+    }
+    .hh{
+        position: absolute;
+        top: 30.5%;
+        left: 66%;
+        font-size: 2.8em;
+    }
+    .container{
+        position: relative ;
+        top: 250px ;
+        left: 40px;
+    }
+    .container div {
+        flex-basis: 75px;
+    }
+    .container div p{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 376px)
+{
+    .h{
+        font-size: 2.5em;
+    }
+    .hh{
+        position: absolute;
+        top: 30.8%;
+        left: 66%;
+        font-size: 2.5em;
+    }
+    .container{
+        color: white;
+        position: relative ;
+        top: 250px ;
+        left: 14px;
+        display: flex ;
+    }
+    .container div {
+        flex-basis: 70px;
+    }
+    .container div p{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 321px)
+{
+    .h{
+        font-size: 2.2em;
+    }
+    .hh{
+        position: absolute;
+        top: 30%;
+        left: 66.8%;
+        font-size: 2.2em;
+    }
+    .container{
+        color: white;
+        position: relative ;
+        top: 250px ;
+        left: 4px;
+        display: flex ;
+    }
+    .container div {
+        flex-basis: 60px;
+    }
+    .container div p{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
+
